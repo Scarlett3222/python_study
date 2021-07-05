@@ -28,6 +28,10 @@ def typeOfPython():
             print("没有预料到的错误")
         finally:  # 无论是否有异常，都会执行的代码
             print("程序结束")
+    elif typePython == "list":
+        print("list实例存储对象序列，列表是一个参考结构，在技术上存储元素的引用序列。列表采用0索引，因此一个长度为n的列表包含从0到n-1的元素。构造函数list()产生一个空列表，python使用[]作为列表的分隔符")
+    elif typePython == "tuple":
+        print("tuple是序列的一个不可变版本，Python使用()作为元组的分隔符。为了与带括号的表达式区别开，只有一个元素的元组表示为(17,)，元素后必须有一个逗号")
     else:
         print("没有该数据类型")
 
