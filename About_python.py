@@ -45,5 +45,5 @@ def typeOfPython():
 
 
 if __name__ == '__main__':
-    main()
-    typeOfPython()
+    main()    # 感受Python变量类型
+    typeOfPython()    # Python内置的类
