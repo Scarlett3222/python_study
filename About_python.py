@@ -55,6 +55,7 @@ def pinglun():
 
 
 if __name__ == '__main__':
+    print("NONONONONO!!!!")
     # main()    # 感受Python变量类型
     # typeOfPython()    # Python内置的类
     pinglun()
