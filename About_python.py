@@ -1,5 +1,9 @@
+# coding=UTF-8
 #开始梳理python语法
 import os
+import requests
+from bs4 import  BeautifulSoup as bs
+
 
 
 def main():
@@ -43,7 +47,14 @@ def typeOfPython():
     else:
         print("没有该数据类型")
 
+def pinglun():
+    url = "https://appgallery.huawei.com/app/C10374976?sharePrepath=ag&locale=zh_CN&source=appshare&subsource=C10374976&shareTo=weixin&shareFrom=appmarket"
+    res = requests.get(url)
+    print(res.text)
+
+
 
 if __name__ == '__main__':
-    main()    # 感受Python变量类型
-    typeOfPython()    # Python内置的类
+    # main()    # 感受Python变量类型
+    # typeOfPython()    # Python内置的类
+    pinglun()
